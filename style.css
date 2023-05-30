@@ -113,6 +113,9 @@ p{
     color: #A0463D;
     -webkit-text-stroke: 0;
 }
+.div2 #img{
+    max-width: 740px;
+}
 .div2 .seal img{
     right: 0;
     bottom: 242px;
@@ -192,7 +195,11 @@ p{
         padding: 10px 15px;
         font-size: 20px;
     }
+    .div2 #img{
+        max-width: 699px;
+        height: 524px;
+    }
     .div2 .seal img{
-        margin-left: 32rem;
+        margin-left: 20rem;
     }
 }
