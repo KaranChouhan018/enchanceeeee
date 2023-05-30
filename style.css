@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-image: url(images/Gradient_builder_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+}
+.navbar li{
+font-weight: 500;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: large;
+   text-align: center;
+   text-transform: uppercase;
+}
+button {
+    padding:10px 15px;
+    background-color: black;
+    border: 2px solid black ;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.landingpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    height: 91vh;
+}
+.div1{
+    margin-left: 50px;
+}
+.div1 h1{
+    font-size: 120px;
+    line-height: 127px;
+    color: #2D2D33;
+    margin: 0;
+    font-family: 'Anton';
+    letter-spacing: 0.04em;
+
+}
+.div1 span{
+    -webkit-text-stroke: 2px #2D2D33;
+    color: transparent;
+    font-family: 'Anton';
+    letter-spacing: 0.04em;
+    
+}
+.highlight{
+    transform: rotate(-4.98deg);
+    font-size: 43px;
+    line-height: 50px;
+    background: #EFBA2B;
+    color: #2d2d33;
+    display: inline-block;
+    padding: 17px 16px 5px;
+    letter-spacing: 0.04em;
+    margin-top: -11px;
+    font-family: 'Anton';
+}
+.div1 h3{
+    margin-top: 4rem;
+    font-weight: 500;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.b1{
+    padding:15px 30px;
+    background-color: #A0463D;;
+    border: 2px solid #A0463D; ;
+    font-weight: 800;
+    font-size: 26px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+p{
+    font-size: 1.25rem;
+    margin-right: 1.5rem!important;
+    margin-left: 1.5rem!important;
+    
+}
+.d-flex span{
+    color: #A0463D;
+    -webkit-text-stroke: 0;
+}
+.div2 .seal img{
+    right: 0;
+    bottom: 242px;
+    animation: rotating 10s linear infinite;
+    width: 133px;
+    animation-name: seal;
+    margin-left: 34rem;
+}
+@keyframes seal{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.loop-section{
+    background: black;
+    height: 120px;
+}
+.animation{
+    background: url(images/logos-strip.png) repeat-x;
+    background-size: 1653px auto;
+    height: 100%;
+    width: 100%;
+    animation-name: animation;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    0%{
+        background-position: -5000px 0px;
+
+    }
+    100%{
+        background-position: -1000px 0px;
+
+    }
+}
+@media only screen and (max-width:600px){
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul li{
+        display: none ;
+    }
+    .landingpage{
+        flex-direction: column;
+        height: 145vh;
+    }
+    .div1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .div1 h1{
+        font-size: 60px;
+        line-height: 1;
+    }
+    .div1 h3{
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+    .highlight{
+        font-size: 30px;
+        padding: 6px 16px 6px;
+    }
+    .d-flex{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+    .b1{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .div2 .seal img{
+        margin-left: 32rem;
+    }
+}
