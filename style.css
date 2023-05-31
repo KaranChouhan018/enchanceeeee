@@ -178,11 +178,11 @@ p{
     font-family: 'Anton';
     letter-spacing: 0.04em;
 }
-.div3 img{
+.div3 h1 img{
     width: 8%;
     height: 85px;
 }
-.div3 #img{
+.div3  #img{
     transform: rotate(180deg);
 }
 .homecards{
@@ -260,8 +260,8 @@ p{
         line-height: 1;
         margin-top: 12%;
     }
-    .div3 img{
-        height: 42px;
+    .div3 h1 img{
+        display: none;
     }
     .cards #img1{
         width: 100%;
